@@ -11,7 +11,6 @@ The following is Team's class is used to parse the JSON fetched from the above u
 
 <code>
 public class Team{
-
     String name;
     Boolean national;
 
