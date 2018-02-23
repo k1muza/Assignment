@@ -9,13 +9,14 @@ After the json content has been fetched, the app uses gson library to convert th
 
 The following is Team's class is used to parse the JSON fetched from the above url into POJOs. 
 
-<code>
-<p>public class Team{</p>
-<p>   String name;</p>
-<p>   Boolean national;</p>
+```
+public class Team 
+  {
+    String name;
+    Boolean national;
 
-<p>   @SerializedName("country_name")</p>
-<p>   String countryName;</p>
-<p>}</p>
-</code>
+    @SerializedName("country_name")
+    String countryName;
+}
+```
 
